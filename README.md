@@ -35,5 +35,25 @@ This is a 3-tier rule engine application built using the MERN stack. It allows y
        ```
       **Frontend (React)**
        ```bash
-         cd frontend
+        cd frontend
         npm install
+       ```
+      **Frontend (React)**
+       ```bash
+        cd frontend
+        npm install
+       ```
+3. ### MongoDB Setup
+   **Go to MongoDB Atlas, set up a new cluster, and whitelist your IP address.**
+   **Get your connection string and replace the MongoDB URI in the backend/.env file:**
+   ```php
+   MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
+   ```
+4. ### Run the Application
+   **Backend**
+   ```bash
+   cd backend
+   nodemon derver.js
+
+
+    
