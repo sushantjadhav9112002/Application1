@@ -53,10 +53,25 @@ This is a 3-tier rule engine application built using the MERN stack. It allows y
    **Backend**
    ```bash
    cd backend
-   nodemon derver.js
+   nodemon server.js
    ```
    **Frontend**
    ```bash
    cd frontend
    npm start
    ```
+5. ### Folder Structure
+  ```bash
+  rule-engine-app/
+├── backend/                # Backend (Node.js, Express)
+│   ├── models/             # Mongoose models
+│   ├── routes/             # Express routes
+│   └── server.js           # Main backend server
+├── frontend/               # Frontend (React)
+│   ├── public/             # Public assets
+│   ├── src/                # Source files
+│   └── App.js              # Main React App
+├── .gitignore              # Git ignore file
+└── README.md               # Project README file
+```
+   
