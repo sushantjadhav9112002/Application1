@@ -28,3 +28,5 @@ This is a 3-tier rule engine application built using the MERN stack. It allows y
   git clone https://github.com/yourusername/rule-engine-app.git
   cd rule-engine-app 
 
+##Install Dependencies
+
