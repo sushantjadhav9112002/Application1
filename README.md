@@ -32,10 +32,14 @@ This is a 3-tier rule engine application built using the MERN stack. It allows y
        ```bash
          cd backend
          npm install
-  **Frontend (React)**
-  ```bash
-    cd frontend
-    npm install
+**Frontend (React)**
+    ```bash
+    
+      cd frontend
+            npm install
+    
+            
+        
 
 
   
