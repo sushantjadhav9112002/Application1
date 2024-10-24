@@ -33,20 +33,7 @@ This is a 3-tier rule engine application built using the MERN stack. It allows y
          cd backend
          npm install
        ```
-      **Backend (Node.js and Express)**
+      **Frontend (React)**
        ```bash
-         cd backend
-         npm install
-
-
-
-        
-            
-
-    
-            
-        
-
-
-  
-
+         cd frontend
+        npm install
