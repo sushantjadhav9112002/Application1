@@ -28,15 +28,21 @@ This is a 3-tier rule engine application built using the MERN stack. It allows y
     git clone https://github.com/yourusername/rule-engine-app.git
     cd rule-engine-app
 2.  ### Install Dependencies
-     **Backend (Node.js and Express)**
+      **Backend (Node.js and Express)**
        ```bash
          cd backend
          npm install
-**Frontend (React)**
-    ```bash
-    
-      cd frontend
-            npm install
+       ```
+      **Backend (Node.js and Express)**
+       ```bash
+         cd backend
+         npm install
+
+
+
+        
+            
+
     
             
         
