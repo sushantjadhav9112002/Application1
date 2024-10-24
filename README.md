@@ -23,11 +23,11 @@ This is a 3-tier rule engine application built using the MERN stack. It allows y
 - **MongoDB Atlas** (or local MongoDB instance)
 - **npm** or **yarn**
 
-1.  ### Clone the Repository
+  ### 1. Clone the Repository
     ```bash
     git clone https://github.com/yourusername/rule-engine-app.git
     cd rule-engine-app
-2.  ### Install Dependencies
+ ### 2. Install Dependencies
       **Backend (Node.js and Express)**
        ```bash
          cd backend
@@ -43,13 +43,13 @@ This is a 3-tier rule engine application built using the MERN stack. It allows y
         cd frontend
         npm install
        ```
-3. ### MongoDB Setup
+ ### 3. MongoDB Setup
    **Go to MongoDB Atlas, set up a new cluster, and whitelist your IP address.**
    **Get your connection string and replace the MongoDB URI in the backend/.env file:**
    ```php
    MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
    ```
-4. ### Run the Application
+### 4. Run the Application
    **Backend**
    ```bash
    cd backend
@@ -60,7 +60,7 @@ This is a 3-tier rule engine application built using the MERN stack. It allows y
    cd frontend
    npm start
    ```
-5. ### Folder Structure
+ ### 5. Folder Structure
   ```bash
   rule-engine-app/
 ├── backend/                # Backend (Node.js, Express)
