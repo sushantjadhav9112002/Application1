@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2); /* Light gradient background for the body */
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+div {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #ffffff, #f7f8f9); /* Light gradient for the form */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+input {
+    width: 100%;
+    padding: 12px 2px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3); /* Gradient background for inputs */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Highlight on focus */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #4e54c8, #8f94fb); /* Gradient background for buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #3b3f88, #7b7dcb); /* Darker gradient on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
+}
+
+@media (max-width: 768px) {
+    div {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 24px; /* Responsive heading size */
+    }
+
+    button {
+        font-size: 14px; /* Responsive button size */
+    }
+}
+
+@media (max-width: 480px) {
+    input {
+        padding: 10px;
+    }
+
+    button {
+        padding: 10px;
+    }
+}
