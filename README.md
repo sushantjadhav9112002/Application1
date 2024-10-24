@@ -23,10 +23,20 @@ This is a 3-tier rule engine application built using the MERN stack. It allows y
 - **MongoDB Atlas** (or local MongoDB instance)
 - **npm** or **yarn**
 
-### Clone the Repository
+1.  ### Clone the Repository
+    ```bash
+    git clone https://github.com/yourusername/rule-engine-app.git
+    cd rule-engine-app
+2.  ### Install Dependencies
+     **Backend (Node.js and Express)**
+       ```bash
+         cd backend
+         npm install
+  **Frontend (React)**
   ```bash
-  git clone https://github.com/yourusername/rule-engine-app.git
-  cd rule-engine-app 
+    cd frontend
+    npm install
 
-##Install Dependencies
+
+  
 
